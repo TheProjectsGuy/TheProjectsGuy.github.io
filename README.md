@@ -58,6 +58,8 @@ Steps to create this website (first build)
     bundle exec jekll serve
     ```
 
+    Optionally, push `archive` to GitHub and add a read-only [branch protection rule](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches). You may also delete `master` in remote and local repository.
+
 ## References
 
 - [jekyll on ruby](https://jekyllrb.com/)
