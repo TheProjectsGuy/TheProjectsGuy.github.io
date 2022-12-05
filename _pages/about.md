@@ -2,24 +2,30 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://robotics.iiit.ac.in/'>RRC</a>. An engineer first, a researcher afterwards.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>RRC, KCIS, IIIT Hyderabad</p>
+    <p>Prof. CR Rao Road</p>
+    <p>Hyderabad, Telangana, India - 500032</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+> **Note**: This site is under development
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I use Computer Vision to solve complex problems in Robotics. Currently, I'm pursuing my M.S. by Research at RRC, IIIT Hyderabad under [Prof. Madhava Krishna](https://robotics.iiit.ac.in/faculty_mkrishna/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My core work is using local, semi-global, global, and sequential descriptors to solve Visual Place Recognition (VPR) problems in **SLAM**. I'm also interested in Perception, Deep Learning, Planning and Navigation, and Robotic simulations. I like to effectively deploy something that works rather than spend time on something that won't.
+
+I like to develop software (and document it well enough) - you can check out my [GitHub](https://github.com/TheProjectsGuy). I have an extreme fascination with computers (I've personally built four systems), and I never miss an opportunity to learn more about them. My interests and experience include various aspects of computer science.
+
+My hobbies include finance, reading, listening to music, and walking. I am also interested in Indian history, cuisines, and culture.
+
+> If you have benefited from (or like) my work, or simply want to be generous, please consider to financially assist me through UPI (India) `theprojectsguy@ybl`, [buy me a coffee](https://liberapay.com/avneesh_m/donate), [sponsor me on GitHub](https://github.com/sponsors/TheProjectsGuy), or [liberapay](https://liberapay.com/avneesh_m/donate). I'll be very grateful for your help.
