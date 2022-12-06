@@ -26,6 +26,6 @@ My core work is using local, semi-global, global, and sequential descriptors to 
 
 I like to develop software (and document it well enough) - you can check out my [GitHub](https://github.com/TheProjectsGuy). I have an extreme fascination with computers (I've personally built four systems), and I never miss an opportunity to learn more about them. My interests and experience include various aspects of computer science.
 
-My hobbies include finance, reading, listening to music, and walking. I am also interested in Indian history, cuisines, and culture.
+My hobbies include finance, reading, listening to music, and watching Marvel movies. I am also interested in Indian history, cuisines, and culture.
 
 > If you have benefited from (or like) my work, or simply want to be generous, please consider to financially assist me through UPI (India) `theprojectsguy@ybl`, [buy me a coffee](https://liberapay.com/avneesh_m/donate), [sponsor me on GitHub](https://github.com/sponsors/TheProjectsGuy), or [liberapay](https://liberapay.com/avneesh_m/donate). I'll be very grateful for your help.
