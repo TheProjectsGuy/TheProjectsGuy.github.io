@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-12-06 06:42:23+0530
 inline: true
 ---
 
-A simple inline announcement.
+Setup the landing page of the blog :sparkles: :smile:

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://robotics.iiit.ac.in/'>RRC</a>. An engineer first, a researcher afterwards.
 

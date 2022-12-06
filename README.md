@@ -66,6 +66,7 @@ Steps to create this website (first build)
     - [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
 - [GitHub pages](https://pages.github.com/)
 - [Liquid Documentation](https://shopify.github.io/liquid/)
+- Template: [alshedivat.github.io/al-folio/](https://alshedivat.github.io/al-folio/)
 
 [![Developer TheProjectsGuy][dev-shield]][dev-profile-link]
 

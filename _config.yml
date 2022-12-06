@@ -73,7 +73,7 @@ twitter_username: 123avneesh # your Twitter handle
 mastodon_username: sigmoid.social/@123avneesh # your mastodon instance+username in the format instance.tld/@username
 bitbucket_username: TheProjectsGuy  # your BitBucket user name
 linkedin_username: avneesh-mishra # your LinkedIn user name
-telegram_username: # your Telegram user name
+telegram_username: avneesh_m # your Telegram user name
 scholar_userid: OZ0j8l4AAAAJ # your Google Scholar ID
 semanticscholar_id: Avneesh-Mishra/2158368084 # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
@@ -97,10 +97,10 @@ pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: # your instagram id
 facebook_id: # your facebook id
-discord_id: # your discord id (18-digit unique numerical identifier)
+discord_id: 123avneesh#6966 # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  If work related, use the work email (first option). I'm also available on Twitter, Gitter, and Mastodon
+  If work related, use the work email (first option). I'm also available on Telegram, Discord, Gitter, Mastodon, and Twitter.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -117,8 +117,8 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Avneesh's Blog # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: A collection of posts I want to be at one place.
+blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
+blog_description: A collection of posts I want to keep at one place. Currently in development.
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -151,7 +151,7 @@ collections:
     permalink: /projects/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 5 # leave blank to include all the news in the `_news` folder
+news_limit: # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
