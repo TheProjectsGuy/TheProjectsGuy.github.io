@@ -22,7 +22,7 @@ Steps to create this website (first build)
     cd TheProjectsGuy.github.io
     # Recompile and check results at localhost:4000
     bundle install
-    bundle exec jekll serve
+    bundle exec jekyll serve
     ```
 
 4. Set up the GitHub build pipeline
