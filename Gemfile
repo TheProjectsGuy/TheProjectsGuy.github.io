@@ -3,6 +3,7 @@ group :jekyll_plugins do
     gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
+    gem 'asciidoctor-diagram'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-imagemagick'
@@ -15,8 +16,6 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'mini_racer'
     gem 'unicode_utils'
-    gem 'jekyll-diagrams'
-    gem 'asciidoctor-diagram'
     gem 'webrick'
 end
 group :other_plugins do

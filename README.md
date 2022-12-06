@@ -7,6 +7,7 @@ My personal webpage available at [theprojectsguy.github.io](https://theprojectsg
 - [TheProjectsGuy Welcomes You](#theprojectsguy-welcomes-you)
     - [Table of Contents](#table-of-contents)
     - [Setup](#setup)
+        - [Enabling mermaid diagrams](#enabling-mermaid-diagrams)
     - [References](#references)
 
 ## Setup
@@ -60,6 +61,51 @@ Steps to create this website (first build)
 
     Optionally, push `archive` to GitHub and add a read-only [branch protection rule](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches). You may also delete `master` in remote and local repository.
 
+### Enabling mermaid diagrams
+
+1. Install `nodejs` and `npm` from [here](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-20-04/)
+
+    ```bash
+    sudo apt update
+    sudo apt install nodejs npm
+    ```
+
+2. Set the permissions for `npm` to use paths in home. These are borrowed from [here](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)
+
+    ```bash
+    mkdir ~/.npm-global
+    npm config set prefix '~/.npm-global'
+    echo "export NPM_CONFIG_PREFIX=~/.npm-global" >> ~/.zshrc
+    echo "export PATH=$PATH:${NPM_CONFIG_PREFIX}/bin" >> ~/.zshrc
+    ```
+
+    This will set the `~/.npm-global` folder as the library folder for npm.
+
+3. Install the `mermaid.cli` package
+
+    ```bash
+    npm install -g mermaid.cli
+    ```
+
+4. Add the following code changes
+
+    - In `Gemfile`, make sure the following are there in `group :jekyll_plugins`
+
+        ```bash
+        gem 'jekyll-diagrams'
+        gem 'asciidoctor-diagram'
+        ```
+
+    - In `_config.yml`, the `plugins` should include `jekyll-diagrams`
+    - There can also be a blank setting `jekyll-diagrams:` for the diagrams settings
+
+5. Rebuild the site and test on local system
+
+    ```bash
+    bundle install
+    bundle exec jekyll serve
+    ```
+
 ## References
 
 - [jekyll on ruby](https://jekyllrb.com/)
@@ -68,6 +114,8 @@ Steps to create this website (first build)
 - [Liquid Documentation](https://shopify.github.io/liquid/)
 - Template: [alshedivat.github.io/al-folio/](https://alshedivat.github.io/al-folio/)
 - [Distill blogs](https://distill.pub/)
+- [jekyll-diagrams](https://github.com/zhustec/jekyll-diagrams)
+    - [mermaid](https://mermaid-js.github.io/mermaid/#/)
 
 [![Developer TheProjectsGuy][dev-shield]][dev-profile-link]
 
