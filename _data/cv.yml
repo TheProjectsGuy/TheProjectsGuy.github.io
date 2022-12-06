@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 27th May 1999
     - name: Languages
-      value: English, and vocational Hindi
+      value: English and Hindi
 
 - title: Education
   type: time_table

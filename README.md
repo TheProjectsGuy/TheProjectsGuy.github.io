@@ -67,6 +67,7 @@ Steps to create this website (first build)
 - [GitHub pages](https://pages.github.com/)
 - [Liquid Documentation](https://shopify.github.io/liquid/)
 - Template: [alshedivat.github.io/al-folio/](https://alshedivat.github.io/al-folio/)
+- [Distill blogs](https://distill.pub/)
 
 [![Developer TheProjectsGuy][dev-shield]][dev-profile-link]
 
