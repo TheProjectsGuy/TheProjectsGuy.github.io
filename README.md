@@ -8,6 +8,8 @@ My personal webpage available at [theprojectsguy.github.io](https://theprojectsg
     - [Table of Contents](#table-of-contents)
     - [Setup](#setup)
         - [Enabling mermaid diagrams](#enabling-mermaid-diagrams)
+        - [Enabling Disqus](#enabling-disqus)
+    - [Local Deployment](#local-deployment)
     - [References](#references)
 
 ## Setup
@@ -75,8 +77,8 @@ Steps to create this website (first build)
     ```bash
     mkdir ~/.npm-global
     npm config set prefix '~/.npm-global'
-    echo "export NPM_CONFIG_PREFIX=~/.npm-global" >> ~/.zshrc
-    echo "export PATH=$PATH:${NPM_CONFIG_PREFIX}/bin" >> ~/.zshrc
+    echo 'export NPM_CONFIG_PREFIX=~/.npm-global' >> ~/.zshrc
+    echo 'export PATH=$PATH:${NPM_CONFIG_PREFIX}/bin' >> ~/.zshrc
     ```
 
     This will set the `~/.npm-global` folder as the library folder for npm.
@@ -106,6 +108,37 @@ Steps to create this website (first build)
     bundle exec jekyll serve
     ```
 
+### Enabling Disqus
+
+By default, the `comments` blog page won't have comments rendered. Do the following
+
+1. Go to https://disqus.com/ and create an account (click on `Get Started`)
+
+    I'm using the Basic plan (free with ads) and the website name is `theprojectsguy` (this page's name)
+
+2. When choosing platform for your site, choose `Universal Code` (at the bottom). You do not need to modify anything, the layout already includes code for disqus.
+3. Set the `disqus_shortname` in `_config.yml` (you may have to uncomment it).
+4. Rebuild the site
+
+    ```bash
+    bundle install
+    bundle exec jekyll serve
+    # Site on localhost:4000
+    ```
+
+5. Go to the template post with comments and you should now see the comments
+
+## Local Deployment
+
+For testing changes before pushing them. Run commands under this in the repository folder.
+
+```bash
+# Install packages (if the Gemfile has been changed)
+bundle install
+# Serve website on localhost:40000
+bundle exec jekyll serve
+```
+
 ## References
 
 - [jekyll on ruby](https://jekyllrb.com/)
@@ -116,6 +149,9 @@ Steps to create this website (first build)
 - [Distill blogs](https://distill.pub/)
 - [jekyll-diagrams](https://github.com/zhustec/jekyll-diagrams)
     - [mermaid](https://mermaid-js.github.io/mermaid/#/)
+    - [mermaid.live](https://mermaid.live/) interactive online editor
+- [disqus](https://disqus.com/)
+    - [How to Install Disqus Manually Using the Universal Code](https://youtu.be/Dr6pSdeJgkA): But we won't have to do much of this
 
 [![Developer TheProjectsGuy][dev-shield]][dev-profile-link]
 
