@@ -18,8 +18,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-> **Note**: This site is under development
-
 I use Computer Vision to solve complex problems in Robotics. Currently, I'm pursuing my M.S. by Research at RRC, IIIT Hyderabad under [Prof. Madhava Krishna](https://robotics.iiit.ac.in/faculty_mkrishna/).
 
 My core work is using local, semi-global, global, and sequential descriptors to solve Visual Place Recognition (VPR) problems in **SLAM**. I'm also interested in Perception, Deep Learning, Planning and Navigation, and Robotic simulations. I like to effectively deploy something that works rather than spend time on something that won't.

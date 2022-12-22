@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Deploy Locally",
+            "type": "shell",
+            "command": "bundle install && bundle exec jekyll serve",
+            "problemMatcher": []
+        }
+    ]
+}
