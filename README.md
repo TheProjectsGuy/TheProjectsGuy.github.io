@@ -7,6 +7,7 @@ My personal webpage available at [theprojectsguy.github.io](https://theprojectsg
 - [TheProjectsGuy Welcomes You](#theprojectsguy-welcomes-you)
     - [Table of Contents](#table-of-contents)
     - [Setup](#setup)
+        - [Adding Social Integration](#adding-social-integration)
         - [Enabling mermaid diagrams](#enabling-mermaid-diagrams)
         - [Enabling Disqus](#enabling-disqus)
     - [Local Deployment](#local-deployment)
@@ -62,6 +63,46 @@ Steps to create this website (first build)
     ```
 
     Optionally, push `archive` to GitHub and add a read-only [branch protection rule](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches). You may also delete `master` in remote and local repository.
+
+### Adding Social Integration
+
+1. Choose the profile logo from [fontawesome brands search](https://fontawesome.com/search?o=r&f=brands). I'm choosing GoodReads `fa-goodreads` for this.
+2. Go to the social media site and get the identifier for your profile in URL
+
+    For example, on [goodreads](https://www.goodreads.com/), go to your profile link. Mine looks like this (either of the following)
+
+    ```txt
+    https://www.goodreads.com/user/show/127374683-avneesh
+    https://www.goodreads.com/user/show/127374683
+    ```
+
+    My identifier is `127374683` (which, with the URL can give my profile)
+
+3. Add the entry to [_config.yml](./_config.yml) file, under `Social integration`
+
+    ```yml
+    goodreads_id: 127374683 # Your goodreads URL ID
+    ```
+
+    Make sure the key `goodreads_id` is unique.
+
+4. In [_includes/social.html](./_includes/social.html), at the desired place, add the following
+
+    ```html
+    {%- if site.goodreads_id -%}
+    <a href="https://www.goodreads.com/user/show/{{ site.goodreads_id }}" title="GoodReads"><i class="fab fa-goodreads"></i></a>
+    {% endif %}
+    ```
+
+    The `href` section requires the URL template. The `site` gets the contents of the YML file in the build.
+
+5. Rebuild the site and refresh the browser
+
+    ```bash
+    # Recompile and check results at localhost:4000
+    bundle install
+    bundle exec jekyll serve
+    ```
 
 ### Enabling mermaid diagrams
 
