@@ -3,3 +3,11 @@ github_users:
 
 github_repos:
   - TheProjectsGuy/DotFiles
+
+github_gists:
+    user: TheProjectsGuy
+    list:
+      - name: proc_see_kill.sh
+        id: 83dcb9ea06cf014822dfe5911dc1143b
+      - name: csinteractive.sh
+        id: de328d8c6f9dd46a4785bb299575bc47

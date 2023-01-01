@@ -10,6 +10,7 @@ My personal webpage available at [theprojectsguy.github.io](https://theprojectsg
         - [Adding Social Integration](#adding-social-integration)
         - [Enabling mermaid diagrams](#enabling-mermaid-diagrams)
         - [Enabling Disqus](#enabling-disqus)
+        - [Creating Pages](#creating-pages)
     - [Local Deployment](#local-deployment)
     - [References](#references)
 
@@ -168,6 +169,31 @@ By default, the `comments` blog page won't have comments rendered. Do the follow
     ```
 
 5. Go to the template post with comments and you should now see the comments
+
+### Creating Pages
+
+Creating another page (under dropdown options). Assuming a gists page here.
+
+1. Create page under `_pages/gists.md` with the following header
+
+    ```md
+    ---
+    layout: page
+    permalink: /gists/
+    title: Gists
+    description: Code snippets I have created to ease my developer life.
+    ---
+    ```
+
+2. In `_pages/drapdown.md`, add the following to the `children`
+
+    ```md
+        - title: divider
+        - title: Gists
+        permalink: /gists/
+    ```
+
+3. Rebuild the site and the dropdown should contain the contents of the `gists.md` file.
 
 ## Local Deployment
 
