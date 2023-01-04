@@ -16,6 +16,9 @@
             {%- if site.semanticscholar_id -%}
             <a href="https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a>
             {% endif %}
+            {%- if site.arxiv_pub_id -%}
+            <a href="https://arxiv.org/a/{{ site.arxiv_pub_id }}.html" title="arXiv"><i class="ai ai-arxiv"></i></a>
+            {% endif %}
             {%- if site.publons_id -%}
             <a href="https://publons.com/a/{{ site.publons_id }}/" title="Publons"><i class="ai ai-publons"></i></a>
             {% endif %}

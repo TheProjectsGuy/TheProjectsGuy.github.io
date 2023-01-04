@@ -67,7 +67,7 @@ Steps to create this website (first build)
 
 ### Adding Social Integration
 
-1. Choose the profile logo from [fontawesome brands search](https://fontawesome.com/search?o=r&f=brands). I'm choosing GoodReads `fa-goodreads` for this.
+1. Choose the profile logo from [fontawesome brands search](https://fontawesome.com/search?o=r&f=brands) (there are also [academicons](https://jpswalsh.github.io/academicons/), but we'll use fontawesome here). I'm choosing GoodReads `fa-goodreads` for this.
 2. Go to the social media site and get the identifier for your profile in URL
 
     For example, on [goodreads](https://www.goodreads.com/), go to your profile link. Mine looks like this (either of the following)
