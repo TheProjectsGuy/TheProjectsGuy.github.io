@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://robotics.iiit.ac.in/'>RRC</a>. An engineer first, a researcher afterwards.
+subtitle: An Indian engineer. Currently at <a href='https://robotics.iiit.ac.in/'>RRC</a>.
 
 profile:
   align: right
@@ -24,6 +24,6 @@ My core work is using local, semi-global, global, and sequential descriptors to 
 
 I like to develop software (and document it well enough) - you can check out my [GitHub](https://github.com/TheProjectsGuy). I have an extreme fascination with computers (I've personally built four systems), and I never miss an opportunity to learn more about them. My interests and experience include various aspects of computer science.
 
-My hobbies include finance, reading, listening to music, and watching Marvel movies. I am also interested in Indian history, cuisines, and culture.
+My hobbies include finance, reading, listening to music, and watching Marvel movies. I am also interested in Indian culture, history, and cuisines.
 
-> If you have benefited from (or like) my work, or simply want to be generous, please consider to financially assist me through UPI (India) `theprojectsguy@ybl`, [buy me a coffee](https://liberapay.com/avneesh_m/donate), [sponsor me on GitHub](https://github.com/sponsors/TheProjectsGuy), or [liberapay](https://liberapay.com/avneesh_m/donate). I'll be very grateful for your help.
+> If you have benefited from (or like) my work, or simply want to be generous, please consider to assist me financially through UPI (India) `theprojectsguy@ybl`, [buy me a coffee](https://liberapay.com/avneesh_m/donate), [sponsor me on GitHub](https://github.com/sponsors/TheProjectsGuy), or [liberapay](https://liberapay.com/avneesh_m/donate). I'll be very grateful for your help.
