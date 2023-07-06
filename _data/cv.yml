@@ -40,6 +40,7 @@
         - title: Basic Research Domains
           contents:
             - Web-streaming setup to match telepresence settings [<a href="https://youtu.be/_vVxpMM_nbQ">YouTube</a>]
+            - Teleoperation of a robotic arm [<a href="https://youtu.be/jTkIXtf35w8">YouTube</a>]
             - Mobile platforms
 
     - title: Student Intern
@@ -84,9 +85,12 @@
 - title: Open Source Projects
   type: time_table
   contents:
+    - title: <a href="https://github.com/TheProjectsGuy/FeatMF">FeatMF</a>
+      year: 2022 - Present
+      description: <b>In development</b>. A framework which combines local and global image feature methods and related downstream tasks into one package. Currently on-hold due to other obligations.
     - title: <a href="https://github.com/TheProjectsGuy/MLHub">MLHub</a>
       year: 2022 - Present
-      description: <b>In development</b>. A central repository of various models (training, good documentation, and inference).
+      description: <b>In development</b>. A central repository of various models (training, good documentation, and inference). Currently on-hold due to other obligations.
 
 - title: Honors and Awards
   type: time_table
