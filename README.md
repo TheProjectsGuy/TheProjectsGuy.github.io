@@ -11,6 +11,8 @@ My personal webpage available at [theprojectsguy.github.io](https://theprojectsg
         - [Enabling mermaid diagrams](#enabling-mermaid-diagrams)
         - [Enabling Disqus](#enabling-disqus)
         - [Creating Pages](#creating-pages)
+        - [Minor Additions](#minor-additions)
+            - [Email Scrambler](#email-scrambler)
     - [Local Deployment](#local-deployment)
     - [References](#references)
 
@@ -194,6 +196,36 @@ Creating another page (under dropdown options). Assuming a gists page here.
     ```
 
 3. Rebuild the site and the dropdown should contain the contents of the `gists.md` file.
+
+### Minor Additions
+
+Some minor additions to the webpage I got from others
+
+#### Email Scrambler
+
+TODO: Maybe integrate this more nicely in the template (without python script).
+
+To scramble your email address under the photo in `about` (landing) page. Do only from step 3 if you're using this template.
+
+1. Add the [scramble.js](./assets/js/scramble.js) file from [Jeff Donahue](http://jeffdonahue.com/).
+2. Include it in the [head.html](./_includes/head.html) file
+
+    ```html
+    <!-- Email scrambler -->
+    <script src="/assets/js/scramble.js"></script>
+    ```
+
+3. Use the [email_scramble.py](./scripts/email_scramble.py) script to get the seed (to scramble your email)
+
+    ```bash
+    python ./email_scramble.py your.email@domain.ext
+    ```
+
+    It'll output scrambled positions and text (that're needed to reconstruct the email).
+
+4. Fill these strings in the `{%- if page.profile.address %} ... email` section (function call of `scrambledString`) in [about.html](./_layouts/about.html).
+
+Thanks to Nikhil Varma Keetha's [Webpage](https://nik-v9.github.io/) for the initial implementation.
 
 ## Local Deployment
 
