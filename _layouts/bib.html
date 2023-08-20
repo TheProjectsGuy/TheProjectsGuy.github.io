@@ -167,15 +167,22 @@
             <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
             {%- endif %}
           {%- endif %}
+          {%- if entry.website %}
+            <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+          {%- endif %}
+          {%- if entry.video %}
+            {% if entry.video contains '://' -%}
+            <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
+            {%- else -%}
+            <a href="{{ entry.video | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Video</a>
+            {%- endif %}
+          {%- endif %}
           {%- if entry.slides %}
             {% if entry.slides contains '://' -%}
             <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
             {%- else -%}
             <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
             {%- endif %}
-          {%- endif %}
-          {%- if entry.website %}
-            <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
           {%- if entry.altmetric %}
             <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-altmetric-id="{{ entry.altmetric }}" class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-popover="right" data-badge-type="2" style="display:inline"></div>
