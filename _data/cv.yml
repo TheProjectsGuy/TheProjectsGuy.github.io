@@ -27,6 +27,7 @@
       description:
         - Mechatronics system design, microcontrollers, digital logic
         - Basic Robotics (kinematics, dynamics, path planning)
+        - <a href="https://www.dropbox.com/scl/fi/ntwybuhk6n4kn3bfkkesc/BTech-Mechatronics-Endterm-Report.pdf?rlkey=buo9s7dxvl8ohvdv8dr28wf5v&dl=0">End-Term Report</a>
 
 - title: Experience
   type: time_table
@@ -47,7 +48,7 @@
       institution: Centre for Artificial Intelligence and Robotics, DRDO
       year: Dec 2019 - Jul 2020
       description:
-        - Final year practice school. Development of a Quadruped Robot.
+        - B.Tech. Final year practice school. Development of a Quadruped Robot.
         - Developed a quadruped test platform (software and embedded program)
         - title: Introduced to basic research
           contents:
