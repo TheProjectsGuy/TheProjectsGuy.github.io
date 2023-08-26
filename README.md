@@ -203,29 +203,9 @@ Some minor additions to the webpage I got from others
 
 #### Email Scrambler
 
-TODO: Maybe integrate this more nicely in the template (without python script).
+In the [about.md](./_pages/about.md) page, add your email address under `profile > email` section (in header of page).
 
-To scramble your email address under the photo in `about` (landing) page. Do only from step 3 if you're using this template.
-
-1. Add the [scramble.js](./assets/js/scramble.js) file from [Jeff Donahue](http://jeffdonahue.com/).
-2. Include it in the [head.html](./_includes/head.html) file
-
-    ```html
-    <!-- Email scrambler -->
-    <script src="/assets/js/scramble.js"></script>
-    ```
-
-3. Use the [email_scramble.py](./scripts/email_scramble.py) script to get the seed (to scramble your email)
-
-    ```bash
-    python ./email_scramble.py your.email@domain.ext
-    ```
-
-    It'll output scrambled positions and text (that're needed to reconstruct the email).
-
-4. Fill these strings in the `{%- if page.profile.address %} ... email` section (function call of `scrambledString`) in [about.html](./_layouts/about.html).
-
-Thanks to Nikhil Varma Keetha's [Webpage](https://nik-v9.github.io/) for the initial implementation.
+Thanks to [Jeff Donahue](http://jeffdonahue.com/) for the JavaScript starter code and Nikhil Varma Keetha's [Webpage](https://nik-v9.github.io/) for the initial idea and implementation.
 
 ## Local Deployment
 

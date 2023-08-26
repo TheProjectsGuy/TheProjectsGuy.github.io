@@ -8,6 +8,7 @@ profile:
   align: right
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
+  email: avneesh.mishra@research.iiit.ac.in
   address: >
     <p>RRC, KCIS, IIIT Hyderabad</p>
     <p>Prof. CR Rao Road</p>
