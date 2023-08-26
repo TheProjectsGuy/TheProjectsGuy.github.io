@@ -26,4 +26,4 @@ I like to develop software (and document it well enough) - you can check out my 
 
 My hobbies include finance, reading, listening to music, and watching Marvel movies. I am also interested in Indian culture, history, and cuisines.
 
-> If you have benefited from (or like) my work, or simply want to be generous, please consider to assist me financially through UPI (India) `theprojectsguy@ybl`, [buy me a coffee](https://liberapay.com/avneesh_m/donate), [sponsor me on GitHub](https://github.com/sponsors/TheProjectsGuy), or [liberapay](https://liberapay.com/avneesh_m/donate). I'll be very grateful for your help.
+<!-- > If you have benefited from (or like) my work, or simply want to be generous, please consider to assist me financially through UPI (India) `theprojectsguy@ybl`, [buy me a coffee](https://liberapay.com/avneesh_m/donate), [sponsor me on GitHub](https://github.com/sponsors/TheProjectsGuy), or [liberapay](https://liberapay.com/avneesh_m/donate). I'll be very grateful for your help. -->
