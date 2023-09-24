@@ -13,6 +13,7 @@ My personal webpage available at [theprojectsguy.github.io](https://theprojectsg
         - [Creating Pages](#creating-pages)
         - [Minor Additions](#minor-additions)
             - [Email Scrambler](#email-scrambler)
+            - [Clustrmaps Visitor Count](#clustrmaps-visitor-count)
     - [Local Deployment](#local-deployment)
     - [References](#references)
 
@@ -206,6 +207,15 @@ Some minor additions to the webpage I got from others
 In the [about.md](./_pages/about.md) page, add your email address under `profile > email` section (in header of page).
 
 Thanks to [Jeff Donahue](http://jeffdonahue.com/) for the JavaScript starter code and Nikhil Varma Keetha's [Webpage](https://nik-v9.github.io/) for the initial idea and implementation.
+
+#### Clustrmaps Visitor Count
+
+In the [_config.yml](./_config.yml) file, set the `clustrmaps_id`. The ID is what comes after the `?d=` and before the `&`. For example
+
+- Map widget installation: `<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=mlKjqTzZ5b9aPWdkGGd6Rw3GHVjb8RBn3kF7whYf6i0&cl=ffffff&w=a"></script>` means `mlKjqTzZ5b9aPWdkGGd6Rw3GHVjb8RBn3kF7whYf6i0`
+- Globe widget installation: `<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=mlKjqTzZ5b9aPWdkGGd6Rw3GHVjb8RBn3kF7whYf6i0"></script>` means `mlKjqTzZ5b9aPWdkGGd6Rw3GHVjb8RBn3kF7whYf6i0`
+
+Set the theme to `"map"` or `"global"` in the variable `clustrmaps_theme` (in the same [file](./_config.yml)).
 
 ## Local Deployment
 

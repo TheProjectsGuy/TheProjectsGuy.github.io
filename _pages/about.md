@@ -17,6 +17,7 @@ profile:
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+clustrmaps: true  # includes clustrmaps widget at the bottom of the page
 ---
 
 I use Computer Vision to solve complex problems in Robotics. Currently, I'm pursuing my M.S. by Research at RRC, IIIT Hyderabad under [Prof. Madhava Krishna](https://robotics.iiit.ac.in/faculty_mkrishna/).

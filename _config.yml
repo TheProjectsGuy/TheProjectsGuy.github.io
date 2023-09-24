@@ -35,6 +35,9 @@ highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-them
 repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 
+# clustrmaps theme
+clustrmaps_theme: map           # "map" or "globe" https://clustrmaps.com/add
+
 # -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
@@ -100,6 +103,7 @@ instagram_id: # your instagram id
 facebook_id: # your facebook id
 goodreads_id: 127374683 # Your goodreads URL ID
 discord_id: 123avneesh#6966 # your discord id (18-digit unique numerical identifier)
+clustrmaps_id: mlKjqTzZ5b9aPWdkGGd6Rw3GHVjb8RBn3kF7whYf6i0  # the ID to your clustrmaps widget (after `?d=`)
 
 contact_note: >
   If work related, use the work email (first option). I'm also available on Telegram, Twitter or the disqus comments in blog.
