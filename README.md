@@ -210,6 +210,8 @@ Thanks to [Jeff Donahue](http://jeffdonahue.com/) for the JavaScript starter cod
 
 #### Clustrmaps Visitor Count
 
+> **Note**: Somehow, this doesn't show up on desktop, but works on mobile.
+
 In the [_config.yml](./_config.yml) file, set the `clustrmaps_id`. The ID is what comes after the `?d=` and before the `&`. For example
 
 - Map widget installation: `<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=mlKjqTzZ5b9aPWdkGGd6Rw3GHVjb8RBn3kF7whYf6i0&cl=ffffff&w=a"></script>` means `mlKjqTzZ5b9aPWdkGGd6Rw3GHVjb8RBn3kF7whYf6i0`

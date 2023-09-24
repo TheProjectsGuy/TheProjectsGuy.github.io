@@ -36,7 +36,7 @@ repo_theme_light: default       # https://github.com/anuraghazra/github-readme-s
 repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 
 # clustrmaps theme
-clustrmaps_theme: globe           # "map" or "globe" https://clustrmaps.com/add
+clustrmaps_theme: map           # "map" or "globe" https://clustrmaps.com/add
 
 # -----------------------------------------------------------------------------
 # RSS Feed
