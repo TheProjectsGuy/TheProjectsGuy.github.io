@@ -226,7 +226,7 @@ For testing changes before pushing them. Run commands under this in the reposito
 ```bash
 # Install packages (if the Gemfile has been changed)
 bundle install
-# Serve website on localhost:40000
+# Serve website on localhost:4000
 bundle exec jekyll serve
 ```
 

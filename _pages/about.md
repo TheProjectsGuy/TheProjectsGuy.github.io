@@ -24,6 +24,8 @@ I use Computer Vision to solve complex problems in Robotics. Currently, I'm purs
 
 My core work is using local, semi-global, global, and sequential descriptors to solve Visual Place Recognition (VPR) problems in **SLAM**. I'm also interested in Perception, Deep Learning, Planning and Navigation, and Robotic simulations. I like to effectively deploy something that works rather than spend time on something that won't.
 
+I sometimes share [paper summaries on HuggingFace Papers](https://huggingface.co/collections/TheProjectsGuy/summaries-6521396de3419abdcf55c4f7).
+
 I like to develop software (and document it well enough) - you can check out my [GitHub](https://github.com/TheProjectsGuy). I have an extreme fascination with computers (I've personally built four systems), and I never miss an opportunity to learn more about them. My interests and experience include various aspects of computer science.
 
 My hobbies include finance, reading, listening to music, and watching Marvel movies. I am also interested in Indian culture, history, and cuisines.
