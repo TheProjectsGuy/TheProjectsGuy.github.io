@@ -43,8 +43,9 @@ clustrmaps_theme: map           # "map" or "globe" https://clustrmaps.com/add
 # -----------------------------------------------------------------------------
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
+# Also see: https://dzhavat.github.io/2020/01/19/adding-an-rss-feed-to-github-pages.html
 
-rss_icon: false
+rss_icon: true
 
 # -----------------------------------------------------------------------------
 # Layout
