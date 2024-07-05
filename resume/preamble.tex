@@ -1,0 +1,75 @@
+% !TEX root = ./main.tex
+
+\documentclass{article}
+\usepackage[a4paper, textwidth=180mm, textheight=260mm]{geometry}
+\usepackage[hidelinks, colorlinks=true]{hyperref}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tikz}
+
+% Configurations
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+% Symbols
+\newcommand{\symbolHt}{1.2em}
+\newcommand{\phoneChar}{
+    \begingroup\normalfont
+    \raisebox{-0.08cm}{ % '%' for no space in end
+        \includegraphics[height=\symbolHt]{icons/phone.png}}%
+    \endgroup
+}
+\newcommand{\homeChar}{
+    \begingroup\normalfont
+    \raisebox{-0.05cm}{
+        \includegraphics[height=\symbolHt]{icons/house.png}}
+    \endgroup
+}
+\newcommand{\githubChar}{
+    \begingroup\normalfont
+    % From: https://www.flaticon.com/free-icon/github_2111432?term=github&page=1&position=4&origin=search&related_id=2111432
+    \raisebox{-0.07cm}{
+        \includegraphics[height=\symbolHt]{icons/github.png}}
+    \endgroup
+}
+\newcommand{\webChar}{
+    \begingroup\normalfont
+    % From: https://www.flaticon.com/free-icon/world-wide-web_1006771?term=website&page=1&position=1&origin=search&related_id=1006771
+    \raisebox{-0.07cm}{
+        \includegraphics[height=\symbolHt]{icons/world-wide-web.png}}
+    \endgroup
+}
+\newcommand{\linkedinChar}{
+    \begingroup\normalfont
+    % From: https://www.flaticon.com/free-icon/linkedin_3536505?term=linkedin&page=1&position=1&origin=search&related_id=3536505
+    \raisebox{-0.07cm}{
+        \includegraphics[height=\symbolHt]{icons/linkedin.png}}
+    \endgroup
+}
+% New section
+\newcommand{\newsec}[1]{
+    {\bf \large #1}
+    \vspace{2mm}
+    \hrule
+    \vspace{2mm}
+}
+% New education header [Degree, Institute, Date \n \hfill GPA]
+\newcommand{\eduheader}[5]{
+    \begin{minipage}{\linewidth}
+        \vspace{1mm}
+        {\bf #1} \hfill {\it #2} \hfill #3 \hfill \\
+        \rightline{\bf #4}
+        \vspace{-8mm}
+        {#5}
+        \vspace{1mm}
+    \end{minipage}
+}
+% New experience header
+\newcommand{\expheader}[4]{
+    \begin{minipage}{\linewidth}
+        \vspace{1mm}
+        {\bf #1} \hfill {\it #2} \hfill #3
+        {#4}
+        \vspace{1mm}
+    \end{minipage}
+}
