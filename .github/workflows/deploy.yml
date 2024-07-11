@@ -24,6 +24,9 @@ jobs:
     - name: Install deps
       run: |
         npm install -g mermaid.cli
+    - name: Custom actions
+      run: |
+        cp ./resume/main.pdf ./assets/pdf/cv.pdf
     - name: Setup deploy options
       id: setup
       run: |

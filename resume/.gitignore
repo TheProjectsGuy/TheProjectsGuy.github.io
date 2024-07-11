@@ -25,3 +25,6 @@
 *.bbl
 *.bcf
 *.blg
+
+# Include the main PDF
+!main.pdf
