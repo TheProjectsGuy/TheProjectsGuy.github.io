@@ -4,19 +4,34 @@
 \input{preamble.tex}
 
 \begin{document}
-    \begin{center}
-        {\bf \LARGE Avneesh Mishra} \\ [4mm]
-        \phoneChar +91 99163 32393 \qquad
-        \texttt{123avneesh@gmail.com} \qquad
-        \homeChar Bengaluru, Karnataka, IN \\ [1mm]
-        \linkedinChar \href{
-            https://www.linkedin.com/in/avneesh-mishra/}{
-            avneesh-mishra} \qquad
-        \githubChar \href{https://github.com/TheProjectsGuy}{
-            TheProjectsGuy} \qquad
-        \webChar \href{https://theprojectsguy.github.io/}{
-            theprojectsguy.github.io}
-    \end{center}
+    {
+    \hfill
+    \begin{minipage}{0.85\textwidth}
+        \begin{center}
+            {\bf \LARGE Avneesh Mishra} 
+            \\ [4mm] \hfill                 % Phone number
+            \phoneChar +91 99163 32393 
+            \hfill                          % Email address
+            \texttt{123avneesh@gmail.com} 
+            \hfill                          % Address
+            \homeChar Bengaluru, Karnataka, IN 
+            \hfill { } \\ [1mm] \hfill      % Blog
+            \webChar \href{https://theprojectsguy.github.io/}{
+                theprojectsguy.github.io} 
+            \hfill                          % Linkedin
+            \linkedinChar \href{
+                https://www.linkedin.com/in/avneesh-mishra/}{
+                avneesh-mishra}
+            \hfill                          % GitHub
+            \githubChar \href{https://github.com/TheProjectsGuy}{
+                TheProjectsGuy}
+            \hfill { } \\
+        \end{center}
+    \end{minipage}
+    \begin{minipage}{0.1\textwidth}
+        \includegraphics[width=\linewidth]{me.jpg}
+    \end{minipage} \\
+    }
     % --------------------- Main profile ---------------------
     \newsec{Profile}
     A Computer Vision and AI researcher from IIIT-H with a background in
